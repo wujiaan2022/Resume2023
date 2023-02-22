@@ -1,16 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-header {
+body {
     margin: 0;
 }
+header {
+    margin: 15px;
+}
 
-.logo {
-    background: url("../images/");
-    background-position: center;
-    background-repeat: no-repeat;
+.header-col {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background: rgb(181, 242, 181);
+    width: 100%;
+    min-height: 420px;
+
+    background-image: url(../image/full-stack-web-development-roadmap-small.jpg);
     background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+}
+
+.box-top {
+    background-color: rgb(185, 220, 220);
+    width: 100%;
+    min-height: 100px
 }
