@@ -6,14 +6,31 @@
     background-color: rgb(247, 191, 88);
 }
 .list-box-resume {
-    background-color: violet
+    background-color: rgb(223, 180, 245)
 }
 .list-box-contact {
-    background-color: rgb(175, 175, 241)
+    background-color: rgb(175, 241, 233)
 }
 .list-box-download {
-    background-color: rgb(56, 197, 185)
+    background-color: rgb(228, 248, 155)
 }   
+
+
+/* ---------Heading - Close the gaps between list items */
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.white-space-container {
+    font-size: 0;
+}
+
+#display-font li {
+    font-size: 14px;
+    padding: 0;
+}
+
 
 /* ----------------------------- Heading */
 
@@ -38,20 +55,12 @@ header {
 .name-box {
     background-color: rgb(247, 220, 185);
     width: 100%;
-    padding-top: 20%    
+    height: 200px   
 }   
 
-/* ---------Heading - Close the gaps between list items */
 
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
+.list-box {
+    height: 120px
 
-.white-space-container {
-    font-size: 0;
-}
 
-#display-font li {
-    font-size: 14px;
-    padding: 0;
 }
