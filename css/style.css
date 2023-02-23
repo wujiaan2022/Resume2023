@@ -26,7 +26,7 @@
     font-size: 0;
 }
 
-#display-font li {
+#nav li {
     font-size: 14px;
     padding: 0;
 }
@@ -45,7 +45,7 @@ header {
 .image-box {
     background: rgb(242, 181, 181);
     width: 100%;
-    padding-top:90%;
+    min-height: 360px;
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -55,7 +55,7 @@ header {
 .name-box {
     background-color: rgb(247, 220, 185);
     width: 100%;
-    height: 200px   
+    height: 240px   
 }   
 
 
@@ -85,4 +85,8 @@ header {
     padding-top: 5px;
     font-weight: 500;
     letter-spacing: 2px;
+}
+
+#nav {
+    margin: 0;
 }
