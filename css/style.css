@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+.list-box-home {
+    background-color: rgb(247, 191, 88);
+}
+.list-box-resume {
+    background-color: violet
+}
+.list-box-contact {
+    background-color: rgb(175, 175, 241)
+}
+.list-box-download {
+    background-color: rgb(56, 197, 185)
+}   
+
+
 body {
     margin: 0;
 }
@@ -12,7 +26,7 @@ header {
 }
 
 .image-box {
-    background: rgb(181, 242, 181);
+    background: rgb(242, 181, 181);
     width: 100%;
     padding-top:90%;
     background-size: cover;
@@ -23,7 +37,7 @@ header {
 
 
 .name-box {
-    background-color: rgb(185, 220, 220);
+    background-color: rgb(202, 245, 177);
     width: 100%;
     padding-top: 20%    
 }   
