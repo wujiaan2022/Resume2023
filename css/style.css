@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/* ----------------------------- Colors */
+
 .list-box-home {
     background-color: rgb(247, 191, 88);
 }
@@ -13,10 +15,8 @@
     background-color: rgb(56, 197, 185)
 }   
 
+/* ----------------------------- Heading */
 
-body {
-    margin: 0;
-}
 header {
     margin: 15px;
 }
@@ -35,12 +35,13 @@ header {
     background-image: url(../image/full-stack-web-development-roadmap-small.jpg);
 }
 
-
 .name-box {
-    background-color: rgb(202, 245, 177);
+    background-color: rgb(247, 220, 185);
     width: 100%;
     padding-top: 20%    
 }   
+
+/* ---------Heading - Close the gaps between list items */
 
 .list-inline-item:not(:last-child) {
     margin: 0;
